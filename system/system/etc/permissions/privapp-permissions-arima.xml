@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!---/***********************************************************
+  Copyright (c) 2020 ArimaComm, Inc.
+  All Rights Reserved.
+  Confidential and Proprietary - ArimaComm, Inc.
+**************************************************************-->
+
+<!--
+This XML file declares which signature|privileged permissions should be granted to the privileged
+application ServiceMenu and Customer applications.
+-->
+<permissions>
+    <privapp-permissions package="com.arima.servicemenu">
+        <permission name="android.permission.MASTER_CLEAR"/>
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+    </privapp-permissions>
+</permissions>
